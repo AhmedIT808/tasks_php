@@ -2,8 +2,8 @@
 
 class Rectangle
 {
-    public $length;
-    public $width;
+    private $length;
+    private $width;
 
     public function __construct(float $l, float $w)
     {
